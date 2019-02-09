@@ -1,0 +1,55 @@
+{
+  "title": "Hello I'm SaSan",
+  "subtitle": "Software developer | OPen-Source Enthusiast | Love art and philosophy",
+  "links": {
+    "github": "https://github.com/sasan",
+    "linkedin": "https://ir.linkedin.com/in/sasan-bahrieh-77514340"
+  },
+  "section": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "lorem ipsum"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "javascript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "CSS"
+          }
+        }
+      ]
+    }
+  ],
+  "icons":{
+      "down":"images/down.png"
+  }
+}
