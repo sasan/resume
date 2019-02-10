@@ -1,0 +1,12 @@
+ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 3%;
+    margin-top:1%;
+    cursor:crosshair;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+ul li:hover{
+    border-bottom: 1px solid #ccc;
+}

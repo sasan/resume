@@ -1,0 +1,14 @@
+.skill{
+    display: inline-block;
+    margin:6% 6% 6% 6%;
+    border:1px solid #ccc;
+    padding:3% 3% 3% 3%;
+    text-transform: uppercase
+    
+}
+.skill:hover{
+    box-shadow: 2px 3px 0px #ccc;
+}
+img{
+    width: 30px;
+}

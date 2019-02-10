@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://sasan.github.io/resume",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -9,6 +10,8 @@
     "react-scroll": "^1.7.10"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,9 +1,20 @@
 {
+  "navigation":[
+    {
+      "content":"About",
+      "to":"about"
+    },
+    {
+      "content":"Skills",
+      "to":"skills"
+    }
+  ],
   "title": "Hello I'm SaSan",
   "subtitle": "Software developer | OPen-Source Enthusiast | Love art and philosophy",
   "links": {
     "github": "https://github.com/sasan",
-    "linkedin": "https://ir.linkedin.com/in/sasan-bahrieh-77514340"
+    "linkedin": "https://ir.linkedin.com/in/sasan-bahrieh-77514340",
+    "twitter":"https://twitter.com/sasanbahrieh"
   },
   "section": [
     {
@@ -11,7 +22,7 @@
       "items": [
         {
           "type": "p",
-          "content": "lorem ipsum"
+          "content": "Thanks for stopping!\n My name is Sasan. I’m a software developer from Tehran, Iran.I have perform works of new media in Tehran’s exhibitions with my friend . I have spent the following 8 years mostly building various web applications within product teams while maintaining a personal creative practice.I have bachlor's degree in computer software engineering from isfahan univercity of applied science and technology. Currently, I’m a software developer at Freelance. Sometimes I teach.I play music by Sonic-Pi."
         }
       ]
     },
@@ -21,35 +32,36 @@
         {
           "type": "card",
           "content": {
-            "image": "/url",
+            "image": "images/react.png",
             "title": "React"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/url",
+            "image": "images/javascript.png",
             "title": "javascript"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/url",
-            "title": "HTML"
+            "image": "images/python.png",
+            "title": "python"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/url",
-            "title": "CSS"
+            "image": "images/mining.png",
+            "title": "datamining"
           }
         }
       ]
     }
   ],
   "icons":{
+      "switch":"images/switch.png",
       "down":"images/down.png"
   }
 }

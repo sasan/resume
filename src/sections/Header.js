@@ -1,49 +1,34 @@
 import React, { Component } from "react";
 import Fullpage from "../components/Fullpage";
 import DownIcon from "../components/DownIcon";
+import './Header.css'
 import data from "../data";
 import { SocialIcon } from "react-social-icons";
-import { Link, Element} from 'react-scroll'
+import { Link, Element } from "react-scroll";
 
 export default class eader extends Component {
-  constructor(){
+  constructor() {
     super();
-    this.state = {
-      color:'white'
-    }
-    this.changeColor=this.changeColor.bind(this);
   }
-  changeColor(){
+  changeColor() {
     this.setState({
-      color:this.state.color === 'white' ? 'yellow' : 'white'
-    })
+      color: this.state.color === "white" ? "yellow" : "white"
+    });
   }
   render() {
     return (
-      <div>
+      <div class="header">
         <Fullpage className="first">
-          <div>
-            <h1 className="title"
-              style={{
-                color:this.state.color
-              }}
-              onMouseOver={this.changeColor}
-               onMouseLeave={this.changeColor}>{data.title}</h1>
-          </div>
-          <div>
-            <h2>{data.subtitle}</h2>
-          </div>
+          <h1>{data.title}</h1>
+          <h2>{data.subtitle}</h2>
           {Object.keys(data.links).map(key => {
-            return <SocialIcon url={data.links[key]} />;
+            return <SocialIcon url={data.links[key]} className="social" />;
           })}
         </Fullpage>
-        <Link activeClass="active" 
-          to="about">
-          <DownIcon icon={data.icons.down}
-            onClick={() => console.log("I'm working")} />
+        <Link activeClass="active" to="about">
+          <DownIcon icon={data.icons.down} />
         </Link>
-        <Element name="about" className="element">
-        </Element>
+        <Element name="about" className="element" />
       </div>
     );
   }
